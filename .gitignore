@@ -1,0 +1,37 @@
+# datasets (do not commit)
+third_party/sssuite/CamVid/
+
+# generated sample outputs
+third_party/sssuite/Images/
+
+# Cityscapes raw dataset
+leftImg8bit/
+gtFine/
+
+# Resized dataset
+cityscape/
+data/
+
+# Training outputs
+logs/
+checkpoints/
+predictions/
+
+# SLURM logs
+*.out
+*.err
+
+# Datasets / archives
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# environments
+.env
+venv/
+
+# OS files
+.DS_Store
